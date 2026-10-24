@@ -1,7 +1,7 @@
 clc; clear; close all;
 
 raw_data = [
-];
+]; //ใส่ค่าข้อมูลลงไป
 
 t_raw  = raw_data(:, 1);
 Ax_raw = raw_data(:, 2);
