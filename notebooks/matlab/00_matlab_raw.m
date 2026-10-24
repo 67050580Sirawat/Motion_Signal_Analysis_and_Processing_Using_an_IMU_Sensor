@@ -1,4 +1,3 @@
-```matlab
 clc; clear; close all;
 
 raw_data = [
@@ -127,4 +126,3 @@ title(['4.2 ผลตอบสนองความถี่ของตัว�
 xlabel('ความถี่ f (Hz)'); ylabel('อัตราขยายขนาด |H(f)|');
 legend('Magnitude Response |H(f)| ของ Moving Average Filter (Sinc-like function)', 'จุดความถี่ศูนย์แรก (First Null Bandwidth)', 'Location', 'northeast');
 xlim([0 fs/2]); grid on;
-```
